@@ -54,7 +54,7 @@ function main() {
   const port = parseInt(process.env.PORT, 10) || 3000;
 
   http.createServer(handler).listen(port, hostname, () => {
-    console.log(`Server running at http://${hostname}:${port}/`);
+    console.log(`Server started at http://${hostname}:${port}/`);
   });
 }
 
