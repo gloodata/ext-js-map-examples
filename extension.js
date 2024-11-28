@@ -6,7 +6,7 @@ export async function getInfo() {
   return {
     title: "Map Examples (JavaScript)",
     ns: NS,
-    functions: {
+    tools: {
       [FN_MAP]: {
         title: "Map Example",
         schema: { fields: {} },
